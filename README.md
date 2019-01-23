@@ -3,6 +3,7 @@
 This project contains how to bring your javascript expertise to a new level by incorporating Functional Programming style.
 
 
+
 ###Installation
 
 **NODEJS** - Node JS allows you to run JAVASCRIPT code outside the browser. [Download](https://nodejs.org/en/download/)
@@ -12,11 +13,15 @@ This project contains how to bring your javascript expertise to a new level by i
 
 
 
+
+
 ###Core Concepts of Functional Programming
 
 	- Keep functions and data separate 
 	- Avoids state change and mutable data
 	- Treats functions as first class citizens
+
+
 
 
 #### First-Class Functions 
@@ -28,12 +33,17 @@ In JavaScript, functions are first-class objects, which means that the language 
  - returned from a function
 
 
+
+
 #### Higher-Order Functions 
 
 A function that takes a function as an argument, returns a function or both
 
 
 
+
 #### Popular Array Functions
- -  _.map
- -  _.filter 
+ -  **_.map **   - Returns Modified list of passed array object by applying function to all the elements and return new Object array.
+ -  **_.filter** - Returns Filtered list of the array if passed function condition evaluated to TRUE.
+ -  **_.every**  - Returns TRUE if the function we pass returns true for all the elements.
+ -  **_.some**   - Returns TRUE if the fuction we pass returns true for any of the passed element.
