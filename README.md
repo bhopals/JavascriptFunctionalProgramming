@@ -4,7 +4,7 @@ This project contains how to bring your javascript expertise to a new level by i
 
 
 
-###Installation
+### Installation
 
 **NODEJS** - Node JS allows you to run JAVASCRIPT code outside the browser. [Download](https://nodejs.org/en/download/)
 
@@ -15,7 +15,7 @@ This project contains how to bring your javascript expertise to a new level by i
 
 
 
-###Core Concepts of Functional Programming
+### Core Concepts of Functional Programming
 
 	- Keep functions and data separate 
 	- Avoids state change and mutable data
@@ -55,3 +55,14 @@ A function that takes a function as an argument, returns a function or both
 #### Advance Concepts
  -  **Partial Application**  - Apply partial elements to the called function
  -  **Recursion**  - Function calling iteself
+
+
+### Running Demos
+
+	To execute code of below files, run with these commands
+
+	node 01_function_substitution.js
+	node 02_create_high_order_function.js
+	node 03_array_functions_loadash.js
+	node 04_combining_javascript_functions.js
+	node 05_partial_application_and_recursion_functions.js
