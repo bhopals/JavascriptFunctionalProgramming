@@ -47,3 +47,4 @@ A function that takes a function as an argument, returns a function or both
  -  **_.filter** - Returns Filtered list of the array if passed function condition evaluated to TRUE.
  -  **_.every**  - Returns TRUE if the function we pass returns true for all the elements.
  -  **_.some**   - Returns TRUE if the fuction we pass returns true for any of the passed element.
+  - **_.reduce** - Returns accumulated response by piping OUTPUT of first element to next element till the end.

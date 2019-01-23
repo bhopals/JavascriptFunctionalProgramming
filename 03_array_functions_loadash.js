@@ -58,3 +58,22 @@ var arrayIsAllEven = _.every(numbers, function(element) {
 })
 
 console.log("Array is all even?: " + arrayIsAllEven)
+
+
+
+/***************
+**   REDUCE
+****************/
+
+var shoppingList = [
+  { name: "Eggs",    price: 4.99 },
+  { name: "Milk",    price: 3.99 },
+  { name: "Bananas", price: 2.79 },
+  { name: "Beer",    price: 6.99 }
+]
+
+var totalCost = _.reduce(shoppingList, function(acc, item) {
+  return acc + item.price
+}, 0)
+
+console.log(totalCost)
