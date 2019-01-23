@@ -43,7 +43,7 @@ A function that takes a function as an argument, returns a function or both
 
 
 #### Popular Array Functions
- -  **_.map **   - Returns Modified list of passed array object by applying function to all the elements and return new Object array.
+ -  **_.map**    - Returns Modified list of passed array object by applying function to all the elements and return new Object array.
  -  **_.filter** - Returns Filtered list of the array if passed function condition evaluated to TRUE.
  -  **_.every**  - Returns TRUE if the function we pass returns true for all the elements.
  -  **_.some**   - Returns TRUE if the fuction we pass returns true for any of the passed element.
