@@ -66,6 +66,18 @@ A function that takes a function as an argument, returns a function or both
 	- class declarations  
 	- class expressions
 
+#### Difference Between Function and Classes
+
+	Functions    
+		- Hoisted
+		- Can be overwritten
+
+	Classes
+		- Not Hoisted
+		- Can't be overwritten (can only be extended)
+
+
+
 
 
 ### Running Demos
