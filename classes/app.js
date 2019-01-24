@@ -1,6 +1,3 @@
-/***
-* Way to Define Class 
-**/
 
 class Car {
     constructor(doors, engine, color) {
@@ -20,15 +17,17 @@ class Car {
     }
 }
 
-
-
 const cx5 = new Car(4, 'V6', 'blue');
-const civic = new Car(4, 'V6', 'blue');
+const civic = new Car(4, 'V6', 'red');
 
-console.log(civic, cx5);
 
-console.log(cx5);
-console.log(cx5.carStats());
+class SUV extends Car {
+    constructor(doors, engine, color) {
+        super(doors, engine, color);
+    }
+}
 
-console.log(civic);
-console.log(civic.carStats());
+const cx6 = new SUV(7, 'V99', 'black' );
+console.log(cx6);
+console.log(cx6.carStats());
+
