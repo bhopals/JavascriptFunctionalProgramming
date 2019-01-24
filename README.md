@@ -57,6 +57,17 @@ A function that takes a function as an argument, returns a function or both
  -  **Recursion**  - Function calling iteself
 
 
+### Java Script Classes
+
+- Syntactic Sugar over prototypes as it inherits all the methods and prototypes
+- Class changes get passed down 
+- Classes aren't hoisted so has to be declared first and then should be used
+- Two ways we can declare classes in javascript :
+	- class declarations  
+	- class expressions
+
+
+
 ### Running Demos
 
 	To execute code of below files, run with these commands
@@ -66,3 +77,4 @@ A function that takes a function as an argument, returns a function or both
 	node 03_array_functions_loadash.js
 	node 04_combining_javascript_functions.js
 	node 05_partial_application_and_recursion_functions.js
+
