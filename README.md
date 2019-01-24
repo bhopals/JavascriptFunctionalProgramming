@@ -77,7 +77,9 @@ A function that takes a function as an argument, returns a function or both
 		- Can't be overwritten (can only be extended)
 
 
-
+#### Mixins
+ You can extend one class at a time, but sometimes you want to extend multiple classes and this is where mixins are useful. As per the GOF pattern, this is one case where we favour composition over inheritance.
+ With extend we **Inherit** from a parent class, with mixins we **compose** into a new class.
 
 
 ### Running Demos
